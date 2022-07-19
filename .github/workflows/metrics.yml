@@ -22,5 +22,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
+          plugin_languages_ignored: shaderlab, batchfile, hlsl
           plugin_languages_details: bytes-size, percentage
           config_order: base.header, base.metadata, isocalendar, languages
